@@ -1,0 +1,42 @@
+{
+  "dataset": "MIMIC-IV with Real Outcomes",
+  "n_patients": 2050,
+  "n_treatments": 10,
+  "outcome_statistics": {
+    "mortality_rate": 0.04,
+    "readmission_rate": 0.16097560975609757,
+    "avg_length_of_stay": 3.132891243796398,
+    "avg_icu_los": 0.806276450100966,
+    "combined_outcome_mean": 0.09036837950742381
+  },
+  "h1": {
+    "mse": 0.01578451693058014,
+    "mae": 0.07391781359910965,
+    "f1": 0.0,
+    "auc_roc": 0.90375,
+    "correlation": 0.5929515807482933
+  },
+  "pico_contrastive_rag": {
+    "mse": 0.01586114801466465,
+    "mae": 0.07333546876907349,
+    "f1": 0.0,
+    "auc_roc": 0.9085000000000001,
+    "correlation": 0.5872659106273227
+  },
+  "baseline": {
+    "mse": 0.02611497975885868,
+    "mae": 0.09656474739313126,
+    "f1": 0.0,
+    "auc_roc": 0.8375,
+    "correlation": 0.3664036768358865
+  },
+  "improvements": {
+    "h1_vs_baseline_mse": 39.557613372802734,
+    "pico_vs_baseline_mse": 39.26417541503906
+  },
+  "best_model": {
+    "name": "H1",
+    "mse": 0.01578451693058014
+  },
+  "timestamp": "2026-04-14T22:15:01.317819"
+}
